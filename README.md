@@ -1,1 +1,2 @@
-pslib-cz.github.io
+github pages - https://pslib-cz.github.io/2025-p2b-web-project-hronr1chard/
+odkaz na figmu (základní design) - https://www.figma.com/design/hRCVfMjXFDq0gp56eAHPqJ/Untitled?node-id=0-1&t=kNLPRXUVeLnXZAVp-1
