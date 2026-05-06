@@ -3,25 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>d.s. Lištičky | Dětská skupina Lučany nad Nisou</title>
-    <!-- Favicon (placeholder logo) -->
+    <title>O nás a Galerie | d.s. Lištičky</title>
     <link rel="icon" href="images/logo.png" type="image/png">
     
-    <!-- Google Fonts: Inter pro text, Outfit pro nadpisy, Material Symbols pro ikony -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Outfit:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet" />
 
-    <!-- Hlavní CSS soubor -->
     <link rel="stylesheet" href="style.css">
-    
-    <!-- SEO meta tagy -->
-    <meta name="description" content="Dětská skupina Lištičky v Lučanech nad Nisou. Nabízíme bezpečné a hravé prostředí pro vaše děti s důrazem na přírodu a rozvoj.">
+    <meta name="description" content="Přečtěte si více o naší dětské skupině Lištičky a prohlédněte si galerii našich prostorů a aktivit.">
 </head>
 <body>
 
-    <!-- Hlavička a Navigace -->
+    <!-- Hlavička -->
     <header class="site-header">
         <div class="container header-inner">
             <a href="index.html" class="logo">
@@ -31,8 +26,8 @@
             
             <nav class="main-nav">
                 <ul>
-                    <li><a href="index.html" class="active">Domů</a></li>
-                    <li><a href="o-nas.html">O nás a Galerie</a></li>
+                    <li><a href="index.html">Domů</a></li>
+                    <li><a href="o-nas.html" class="active">O nás a Galerie</a></li>
                     <li><a href="kontakt.html">Kontakt</a></li>
                 </ul>
             </nav>
@@ -45,48 +40,63 @@
         </div>
     </header>
 
-    <!-- Hlavní obsah stránky -->
+    <!-- Hlavní obsah -->
     <main class="site-wrapper">
         <div class="container">
             
-            <!-- Hero sekce -->
-            <section class="hero">
-                <div class="grid-2 px-4">
-                    <div class="hero-content">
-                        <h1>Hravé a bezpečné prostředí pro vaše děti</h1>
-                        <p>Vítejte v dětské skupině Lištičky v Lučanech nad Nisou. Tvoříme místo, kde se děti cítí jako doma, učí se hrou a objevují svět v souladu s přírodou.</p>
-                        <div class="gap-2" style="display: flex; flex-wrap: wrap;">
-                            <a href="kontakt.html" class="btn">
-                                <span class="icon">edit_calendar</span> Přihlásit dítě
-                            </a>
-                            <a href="o-nas.html" class="btn btn-secondary">
-                                <span class="icon">photo_library</span> Naše galerie
-                            </a>
-                        </div>
-                    </div>
-                    <div class="hero-image">
-                        <img src="images/hero.png" alt="Ilustrace hrající si lištičky v přírodě">
-                    </div>
-                </div>
+            <section class="py-4 text-center">
+                <h1>O nás a naše vize</h1>
+                <p style="max-width: 800px; margin: 0 auto;">
+                    Jsme malá dětská skupina v srdci Lučan nad Nisou. Zaměřujeme se na zdravý vývoj dětí předškolního věku. 
+                    Věříme, že nejlepší učebnou je sama příroda. Každý den objevujeme nové věci, tvoříme, zpíváme a hrajeme si. 
+                    Naším cílem je, aby od nás děti odcházely s úsměvem a těšily se na další den.
+                </p>
             </section>
 
-            <!-- O nás zkráceně -->
+            <!-- Galerie -->
             <section class="py-4">
-                <div class="text-center mb-4">
-                    <h2>Proč si vybrat Lištičky?</h2>
-                    <p class="text-muted">Zakládáme si na individuálním přístupu a láskyplném prostředí.</p>
-                </div>
+                <h2>Nahlédněte k nám (Galerie)</h2>
+                <p class="text-muted">Používáme CSS Grid pro plynulé a krásné zobrazení bez ohledu na velikost vašeho displeje.</p>
                 
-                <div class="grid-2">
-                    <div class="card">
-                        <span class="icon text-primary" style="font-size: 48px; margin-bottom: 1rem;">forest</span>
-                        <h3>Blízko přírodě</h3>
-                        <p>Lučany nad Nisou nám nabízejí krásné prostředí. Chodíme často ven, do lesa a učíme děti vztahu k naší krásné krajině a zvířátkům.</p>
+                <div class="gallery-grid">
+                    <!-- Položka 1 (Zvýrazněná) -->
+                    <div class="gallery-item featured">
+                        <img src="images/gallery-toys.png" alt="Naše hračky">
+                        <div class="gallery-overlay">
+                            <span>Kreativní hraní a rozvoj</span>
+                        </div>
                     </div>
-                    <div class="card">
-                        <span class="icon text-secondary" style="font-size: 48px; margin-bottom: 1rem;">diversity_1</span>
-                        <h3>Malý kolektiv</h3>
-                        <p>Díky menšímu počtu dětí ve skupině se můžeme věnovat každému zvlášť, rozvíjet jeho talent a zajistit mu pocit absolutního bezpečí.</p>
+                    
+                    <!-- Položka 2 -->
+                    <div class="gallery-item">
+                        <img src="images/gallery-nature.png" alt="Venkovní hřiště">
+                        <div class="gallery-overlay">
+                            <span>Na hřišti v přírodě</span>
+                        </div>
+                    </div>
+                    
+                    <!-- Položka 3 -->
+                    <div class="gallery-item">
+                        <img src="images/hero.png" alt="Venkovní kresba">
+                        <div class="gallery-overlay">
+                            <span>S maskotem Lištičkou</span>
+                        </div>
+                    </div>
+                    
+                    <!-- Položka 4 -->
+                    <div class="gallery-item">
+                        <img src="images/gallery-nature.png" alt="Procházka">
+                        <div class="gallery-overlay">
+                            <span>Procházky po okolí</span>
+                        </div>
+                    </div>
+                    
+                    <!-- Položka 5 -->
+                    <div class="gallery-item">
+                        <img src="images/gallery-toys.png" alt="Hračky">
+                        <div class="gallery-overlay">
+                            <span>Dřevěné hračky</span>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -122,7 +132,7 @@
             </div>
         </div>
         <div class="text-center" style="margin-top: 3rem; opacity: 0.5; font-size: 14px;">
-            <p>&copy; 2026 d.s. Lištičky. Všechna práva vyhrazena. Projekt do předmětu Webové aplikace.</p>
+            <p>&copy; 2026 d.s. Lištičky. Všechna práva vyhrazena.</p>
         </div>
     </footer>
 
