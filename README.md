@@ -1,15 +1,12 @@
-github pages - https://pslib-cz.github.io/2025-p2b-web-project-hronr1chard/
-odkaz na figmu (základní design) - https://www.figma.com/design/hRCVfMjXFDq0gp56eAHPqJ/Untitled?node-id=0-1&t=kNLPRXUVeLnXZAVp-1
+Projekt do předmětu **Webové aplikace**. Cílem bylo navrhnout a nakódovat plně funkční, responzivní a moderní webovou prezentaci pro dětskou skupinu (školku) bez použití JavaScriptu, pouze pomocí čistého HTML a pokročilého CSS.
+- **Živá ukázka (GitHub Pages):** [pslib-cz.github.io/2025-p2b-web-project-hronr1chard/](https://pslib-cz.github.io/2025-p2b-web-project-hronr1chard/)
+- **Původní grafický návrh (Figma):** [Figma Design](https://www.figma.com/design/hRCVfMjXFDq0gp56eAHPqJ/Untitled?node-id=0-1&t=kNLPRXUVeLnXZAVp-1)
 
-Popis mého webu:
-    -cílem je zajmout na rodiče, takže nějaký teplejší barvy s tématem přírody
-        
-        barevná paleta kterou jsem zvolil:
-            -#4A3427 - hnědá (primární barva)
-            -#E67E22 - oranžová (sekundární barva)
-            -#FFFFFF - bílá (tercirní barva)
-            -#7FB069 - zelená (občasné využití)
-            -#FFD966 - žluta (občasné využití)
-    
-    -snažím se aby byl web co nejjednoduší aby tam naštevníci našli přesne to co hledají za pár vteřin
-    -řadím na web jen odkazy které jsou opravdu potřebné pro chod školky
+
+
+**Definovaná paleta barev:**
+- 🟤 `#4A3427` - Hnědá (Hlavní barva pro texty - výborná čitelnost a kontrast)
+- 🟠 `#E67E22` - Oranžová (Sekundární "liščí" barva pro tlačítka a akční prvky)
+- ⚪ `#FFFFFF` - Bílá / `#FDF5E6` - Béžová (Terciární barvy pro čisté pozadí)
+- 🟢 `#7FB069` - Zelená (Občasné využití pro akcent přírody)
+- 🟡 `#FFD966` - Žlutá (Občasné využití pro radostný akcent)
