@@ -1,6 +1,8 @@
 Projekt do předmětu **Webové aplikace**. Cílem bylo navrhnout a nakódovat plně funkční, responzivní a moderní webovou prezentaci pro dětskou skupinu (školku) bez použití JavaScriptu, pouze pomocí čistého HTML a pokročilého CSS.
-- **Živá ukázka (GitHub Pages):** [pslib-cz.github.io/2025-p2b-web-project-hronr1chard/](https://pslib-cz.github.io/2025-p2b-web-project-hronr1chard/)
-- **Původní grafický návrh (Figma):** [Figma Design](https://www.figma.com/design/hRCVfMjXFDq0gp56eAHPqJ/Untitled?node-id=0-1&t=kNLPRXUVeLnXZAVp-1)
+
+-**Živá ukázka (GitHub Pages):** (https://pslib-cz.github.io/2025-p2b-web-project-hronr1chard/)
+
+-**Původní grafický návrh (Figma):**(https://www.figma.com/design/dCJb2VClXo9Ns2Zu72cAhw/Untitled?node-id=0-1&t=pkB9Gouu5KHwpGlQ-1)
 
 
 
