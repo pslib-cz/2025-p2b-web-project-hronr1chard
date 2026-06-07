@@ -22,6 +22,7 @@
 
 <body>
 
+    <!-- Hlavička a navigace -->
     <header class="site-header">
         <div class="container header-inner">
             <a href="index.html" class="logo">
@@ -56,21 +57,24 @@
         </div>
     </header>
 
+    <!-- Hlavní obsah -->
     <main class="site-wrapper">
         <div class="container">
 
+            <!-- Úvodní sekce galerie -->
             <section class="py-5 text-center">
-                <h1 style="font-size: var(--size-text-xxxl);">Naše Galerie</h1>
-                <p class="text-muted" style="max-width: 800px; margin: 0 auto; font-size: var(--size-text-lg);">
+                <h1 class="page-title">Naše Galerie</h1>
+                <p class="text-muted page-description">
                     Podívejte se, jak to u nás vypadá a co všechno s dětmi podnikáme. K prezentaci používáme moderní CSS
                     Grid.
                 </p>
             </section>
 
+            <!-- Sekce: Hrajeme si ve třídě -->
             <section class="gallery-album">
                 <div class="items-center gap-2 mb-2">
-                    <span class="icon text-primary" style="font-size: 32px;">toys</span>
-                    <h2 style="margin: 0;">Hrajeme si ve třídě</h2>
+                    <span class="icon text-primary album-icon">toys</span>
+                    <h2 class="album-title">Hrajeme si ve třídě</h2>
                 </div>
 
                 <div class="gallery-grid bento">
@@ -89,10 +93,11 @@
                 </div>
             </section>
 
+            <!-- Sekce: Výlety do přírody -->
             <section class="gallery-album">
                 <div class="items-center gap-2 mb-2">
-                    <span class="icon text-secondary" style="font-size: 32px;">nature_people</span>
-                    <h2 style="margin: 0;">Naše výlety do přírody</h2>
+                    <span class="icon text-secondary album-icon">nature_people</span>
+                    <h2 class="album-title">Naše výlety do přírody</h2>
                 </div>
 
                 <div class="gallery-grid bento">
@@ -111,10 +116,11 @@
                 </div>
             </section>
 
+            <!-- Sekce: Tvoření -->
             <section class="gallery-album">
                 <div class="items-center gap-2 mb-2">
-                    <span class="icon text-primary" style="font-size: 32px;">palette</span>
-                    <h2 style="margin: 0;">Naše tvoření</h2>
+                    <span class="icon text-primary album-icon">palette</span>
+                    <h2 class="album-title">Naše tvoření</h2>
                 </div>
 
                 <div class="gallery-grid">
@@ -140,23 +146,24 @@
         </div>
     </main>
 
+    <!-- Patička -->
     <footer class="site-footer">
         <div class="container footer-inner">
             <div>
-                <a href="index.html" class="logo" style="color: var(--color-bg-white);">
+                <a href="index.html" class="logo footer-logo">
                     <img src="images/logo.png" alt="Lištičky logo">
                     d.s. Lištičky
                 </a>
-                <p style="margin-top: 1.5rem; opacity: 0.8; font-size: var(--size-text-sm);">Dětská skupina v Lučanech
+                <p class="footer-description">Dětská skupina v Lučanech
                     nad Nisou. Místo pro hru, smích a objevování.</p>
                 <a href="https://www.facebook.com/lisacilucany?locale=cs_CZ" target="_blank" rel="noopener noreferrer"
-                    style="display: inline-flex; align-items: center; gap: 0.5rem; margin-top: 1rem; color: var(--color-bg-white); opacity: 0.9;">
+                    class="footer-social-link">
                     <span class="icon">thumb_up</span> Naše Facebook stránka
                 </a>
             </div>
             <div>
-                <h3 style="color: var(--color-bg-white);">Navigace</h3>
-                <ul style="opacity: 0.8; line-height: 2;">
+                <h3 class="footer-heading">Navigace</h3>
+                <ul class="footer-list">
                     <li><a href="index.html">Domů</a></li>
                     <li><a href="o-nas.html">O nás</a></li>
                     <li><a href="galerie.html">Galerie</a></li>
@@ -164,27 +171,26 @@
                 </ul>
             </div>
             <div>
-                <h3 style="color: var(--color-bg-white);">Užitečné</h3>
-                <ul style="opacity: 0.8; line-height: 2;">
+                <h3 class="footer-heading">Užitečné</h3>
+                <ul class="footer-list">
                     <li><a href="jidelnicek.html">Týdenní jídelníček</a></li>
                     <li><a href="dokumenty.html">Dokumenty ke stažení</a></li>
                     <li><a href="kontakty.html">Kontakt a mapa</a></li>
                 </ul>
             </div>
             <div>
-                <h3 style="color: var(--color-bg-white);">Kontaktní údaje</h3>
-                <ul style="opacity: 0.8; line-height: 2;">
-                    <li><span class="icon" style="font-size: 18px; vertical-align: middle;">location_on</span> Lučany
+                <h3 class="footer-heading">Kontaktní údaje</h3>
+                <ul class="footer-list">
+                    <li><span class="icon footer-icon">location_on</span> Lučany
                         nad Nisou 640<br>Lučany nad Nisou</li>
-                    <li><span class="icon" style="font-size: 18px; vertical-align: middle;">phone</span> <a
-                            href="tel:+420720169023">+420 720 169 023</a></li>
-                    <li><span class="icon" style="font-size: 18px; vertical-align: middle;">mail</span> <a
+                    <li><span class="icon footer-icon">phone</span> <a href="tel:+420720169023">+420 720 169 023</a>
+                    </li>
+                    <li><span class="icon footer-icon">mail</span> <a
                             href="mailto:dslisticky@seznam.cz">dslisticky@seznam.cz</a></li>
                 </ul>
             </div>
         </div>
-        <div class="text-center"
-            style="margin-top: 4rem; padding-top: 2rem; border-top: 1px solid rgba(255,255,255,0.1); opacity: 0.5; font-size: 14px;">
+        <div class="text-center footer-bottom">
             <p>&copy; 2026 d.s. Lištičky v Lučanech nad Nisou. Všechna práva vyhrazena.</p>
         </div>
     </footer>

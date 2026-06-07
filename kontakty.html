@@ -22,6 +22,7 @@
 
 <body>
 
+    <!-- Hlavička a navigace -->
     <header class="site-header">
         <div class="container header-inner">
             <a href="index.html" class="logo">
@@ -56,28 +57,30 @@
         </div>
     </header>
 
+    <!-- Hlavní obsah -->
     <main class="site-wrapper">
         <div class="container">
 
+            <!-- Kontaktní informace a formulář -->
             <section class="py-5">
                 <div class="text-center mb-4">
-                    <h1 style="font-size: var(--size-text-xxxl);">Spojte se s námi</h1>
-                    <p class="text-muted" style="max-width: 800px; margin: 0 auto; font-size: var(--size-text-lg);">
+                    <h1 class="page-title">Spojte se s námi</h1>
+                    <p class="text-muted page-description">
                         Máte dotaz nebo chcete své dítko k nám přihlásit? Zavolejte nám, napište e-mail, nebo nás
                         sledujte na Facebooku.
                     </p>
                 </div>
 
                 <div class="grid-2">
-                    <div class="card"
-                        style="background-color: var(--color-primary-dark); color: var(--color-bg-white);">
-                        <h2 style="color: var(--color-bg-white);">Kde nás najdete?</h2>
-                        <p style="opacity: 0.9; margin-bottom: 2rem;">Před osobní návštěvou prosím doporučujeme
+                    <!-- Kde nás najdete -->
+                    <div class="card contact-info-card">
+                        <h2 class="contact-info-title">Kde nás najdete?</h2>
+                        <p class="contact-info-desc">Před osobní návštěvou prosím doporučujeme
                             telefonickou domluvu, abychom se vám mohli plně věnovat.</p>
 
-                        <ul style="display: grid; gap: 1.5rem; opacity: 0.9; font-size: var(--size-text-lg);">
-                            <li style="display: flex; gap: 1rem; align-items: flex-start;">
-                                <span class="icon" style="margin-top: 4px;">location_on</span>
+                        <ul class="contact-list">
+                            <li class="contact-item align-start">
+                                <span class="icon icon-offset">location_on</span>
                                 <div>
                                     <strong>Adresa:</strong><br>
                                     Lučany nad Nisou 640<br>
@@ -85,40 +88,38 @@
                                     Czech Republic
                                 </div>
                             </li>
-                            <li style="display: flex; gap: 1rem; align-items: center;">
+                            <li class="contact-item">
                                 <span class="icon">phone</span>
                                 <div>
                                     <strong>Telefon:</strong><br>
-                                    <a href="tel:+420720169023" style="color: var(--color-bg-white);">+420 720 169
-                                        023</a>
+                                    <a href="tel:+420720169023" class="contact-link">+420 720 169 023</a>
                                 </div>
                             </li>
-                            <li style="display: flex; gap: 1rem; align-items: center;">
+                            <li class="contact-item">
                                 <span class="icon">mail</span>
                                 <div>
                                     <strong>E-mail:</strong><br>
-                                    <a href="mailto:dslisticky@seznam.cz"
-                                        style="color: var(--color-bg-white);">dslisticky@seznam.cz</a>
+                                    <a href="mailto:dslisticky@seznam.cz" class="contact-link">dslisticky@seznam.cz</a>
                                 </div>
                             </li>
-                            <li style="display: flex; gap: 1rem; align-items: center;">
+                            <li class="contact-item">
                                 <span class="icon">thumb_up</span>
                                 <div>
                                     <strong>Sociální sítě:</strong><br>
                                     <a href="https://www.facebook.com/lisacilucany?locale=cs_CZ" target="_blank"
-                                        rel="noopener noreferrer"
-                                        style="color: var(--color-bg-white); text-decoration: underline;">Sledujte nás
-                                        na Facebooku</a>
+                                        rel="noopener noreferrer" class="contact-link underline">Sledujte nás na
+                                        Facebooku</a>
                                 </div>
                             </li>
                         </ul>
                     </div>
 
-                    <div style="display: flex; flex-direction: column; gap: 2rem;">
-                        <div class="card" style="padding: 0; overflow: hidden; height: 300px;">
+                    <!-- Mapa a formulář -->
+                    <div class="contact-form-wrapper">
+                        <div class="card map-container">
                             <iframe
                                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4800.159889874758!2d15.221454897128512!3d50.73819928979805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470ecb6c809f9cef%3A0x67f95fdb1ccb7939!2zRMSbdHNrw6Egc2t1cGluYSBMacWhdGnEjWt5!5e1!3m2!1scs!2scz!4v1778750817820!5m2!1scs!2scz"
-                                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                width="600" height="450" class="map-iframe" allowfullscreen="" loading="lazy"
                                 referrerpolicy="no-referrer-when-downgrade">
                             </iframe>
                         </div>
@@ -129,13 +130,13 @@
                                 <div class="form-group">
                                     <label for="jmeno" class="form-label">Vaše jméno</label>
                                     <input type="text" id="jmeno" name="jmeno" class="form-control"
-                                        placeholder="Např. Jan Novák" required>
+                                        placeholder="Např. Petr Novák" required>
                                 </div>
 
                                 <div class="form-group">
                                     <label for="email" class="form-label">E-mailová adresa</label>
                                     <input type="email" id="email" name="email" class="form-control"
-                                        placeholder="Např. jan@novak.cz" required>
+                                        placeholder="Např. petr@novak.cz" required>
                                 </div>
 
                                 <div class="form-group">
@@ -144,7 +145,7 @@
                                         placeholder="Dobrý den, chtěl bych se zeptat na..." required></textarea>
                                 </div>
 
-                                <button type="submit" class="btn" style="width: 100%;">
+                                <button type="submit" class="btn w-100">
                                     Odeslat zprávu <span class="icon">send</span>
                                 </button>
                             </form>
@@ -156,23 +157,24 @@
         </div>
     </main>
 
+    <!-- Patička -->
     <footer class="site-footer">
         <div class="container footer-inner">
             <div>
-                <a href="index.html" class="logo" style="color: var(--color-bg-white);">
+                <a href="index.html" class="logo footer-logo">
                     <img src="images/logo.png" alt="Lištičky logo">
                     d.s. Lištičky
                 </a>
-                <p style="margin-top: 1.5rem; opacity: 0.8; font-size: var(--size-text-sm);">Dětská skupina v Lučanech
+                <p class="footer-description">Dětská skupina v Lučanech
                     nad Nisou. Místo pro hru, smích a objevování.</p>
                 <a href="https://www.facebook.com/lisacilucany?locale=cs_CZ" target="_blank" rel="noopener noreferrer"
-                    style="display: inline-flex; align-items: center; gap: 0.5rem; margin-top: 1rem; color: var(--color-bg-white); opacity: 0.9;">
+                    class="footer-social-link">
                     <span class="icon">thumb_up</span> Naše Facebook stránka
                 </a>
             </div>
             <div>
-                <h3 style="color: var(--color-bg-white);">Navigace</h3>
-                <ul style="opacity: 0.8; line-height: 2;">
+                <h3 class="footer-heading">Navigace</h3>
+                <ul class="footer-list">
                     <li><a href="index.html">Domů</a></li>
                     <li><a href="o-nas.html">O nás</a></li>
                     <li><a href="galerie.html">Galerie</a></li>
@@ -180,27 +182,26 @@
                 </ul>
             </div>
             <div>
-                <h3 style="color: var(--color-bg-white);">Užitečné</h3>
-                <ul style="opacity: 0.8; line-height: 2;">
+                <h3 class="footer-heading">Užitečné</h3>
+                <ul class="footer-list">
                     <li><a href="jidelnicek.html">Týdenní jídelníček</a></li>
                     <li><a href="dokumenty.html">Dokumenty ke stažení</a></li>
                     <li><a href="kontakty.html">Kontakt a mapa</a></li>
                 </ul>
             </div>
             <div>
-                <h3 style="color: var(--color-bg-white);">Kontaktní údaje</h3>
-                <ul style="opacity: 0.8; line-height: 2;">
-                    <li><span class="icon" style="font-size: 18px; vertical-align: middle;">location_on</span> Lučany
+                <h3 class="footer-heading">Kontaktní údaje</h3>
+                <ul class="footer-list">
+                    <li><span class="icon footer-icon">location_on</span> Lučany
                         nad Nisou 640<br>Lučany nad Nisou</li>
-                    <li><span class="icon" style="font-size: 18px; vertical-align: middle;">phone</span> <a
-                            href="tel:+420720169023">+420 720 169 023</a></li>
-                    <li><span class="icon" style="font-size: 18px; vertical-align: middle;">mail</span> <a
+                    <li><span class="icon footer-icon">phone</span> <a href="tel:+420720169023">+420 720 169 023</a>
+                    </li>
+                    <li><span class="icon footer-icon">mail</span> <a
                             href="mailto:dslisticky@seznam.cz">dslisticky@seznam.cz</a></li>
                 </ul>
             </div>
         </div>
-        <div class="text-center"
-            style="margin-top: 4rem; padding-top: 2rem; border-top: 1px solid rgba(255,255,255,0.1); opacity: 0.5; font-size: 14px;">
+        <div class="text-center footer-bottom">
             <p>&copy; 2026 d.s. Lištičky v Lučanech nad Nisou. Všechna práva vyhrazena.</p>
         </div>
     </footer>

@@ -22,6 +22,7 @@
 
 <body>
 
+    <!-- Hlavička a navigace -->
     <header class="site-header">
         <div class="container header-inner">
             <a href="index.html" class="logo">
@@ -56,17 +57,20 @@
         </div>
     </header>
 
+    <!-- Hlavní obsah -->
     <main class="site-wrapper">
         <div class="container">
 
+            <!-- Úvodní sekce - Náš příběh -->
             <section class="py-5 text-center">
-                <h1 style="font-size: var(--size-text-xxxl);">Náš příběh a naše hodnoty</h1>
-                <p class="text-muted" style="max-width: 800px; margin: 0 auto; font-size: var(--size-text-lg);">
+                <h1 class="page-title">Náš příběh a naše hodnoty</h1>
+                <p class="text-muted page-description">
                     Jsme dětská skupina Lištičky. Vznikli jsme z přesvědčení, že každé dítě si zaslouží místo plné
                     lásky, respektu a volnosti k objevování světa.
                 </p>
             </section>
 
+            <!-- Sekce: Jak to celé začalo -->
             <section class="mb-4">
                 <div class="grid-2">
                     <div>
@@ -91,14 +95,14 @@
                             jedinečnost a tempo.
                         </p>
                     </div>
-                    <div style="border-radius: var(--radius-lg); overflow: hidden; box-shadow: var(--shadow);">
+                    <div class="about-image-wrapper">
                         <img src="images/hero.png" alt="Obrázek dětí venku">
                     </div>
                 </div>
             </section>
 
-            <section class="py-4 bg-white shadow"
-                style="padding: 3rem; border-radius: var(--radius-lg); margin-bottom: 4rem;">
+            <!-- Sekce: Pilíře naší péče -->
+            <section class="bg-white shadow about-pillars-section">
                 <div class="section-title">
                     <h2>Pilíře naší péče</h2>
                     <p class="text-muted">Čtyři základní hodnoty, na kterých stavíme náš přístup k dětem.</p>
@@ -106,32 +110,33 @@
 
                 <div class="grid-4">
                     <div class="text-center">
-                        <span class="icon text-primary" style="font-size: 64px; margin-bottom: 1rem;">favorite</span>
+                        <span class="icon text-primary pillar-icon">favorite</span>
                         <h4>Laskavost</h4>
-                        <p class="text-muted" style="font-size: var(--size-text-sm);">Ke každému dítěti přistupujeme s
+                        <p class="text-muted text-sm">Ke každému dítěti přistupujeme s
                             otevřeným srdcem. Tvoříme prostředí bez stresu a nátlaku.</p>
                     </div>
                     <div class="text-center">
-                        <span class="icon text-secondary" style="font-size: 64px; margin-bottom: 1rem;">eco</span>
+                        <span class="icon text-secondary pillar-icon">eco</span>
                         <h4>Příroda</h4>
-                        <p class="text-muted" style="font-size: var(--size-text-sm);">Lesy v okolí Lučan jsou naší
+                        <p class="text-muted text-sm">Lesy v okolí Lučan jsou naší
                             druhou hernou. Chceme, aby děti znaly stromy, rostliny a zvířata.</p>
                     </div>
                     <div class="text-center">
-                        <span class="icon text-primary" style="font-size: 64px; margin-bottom: 1rem;">palette</span>
+                        <span class="icon text-primary pillar-icon">palette</span>
                         <h4>Kreativita</h4>
-                        <p class="text-muted" style="font-size: var(--size-text-sm);">Neomezujeme dětskou fantazii.
+                        <p class="text-muted text-sm">Neomezujeme dětskou fantazii.
                             Malujeme, zpíváme, stavíme. Podporujeme vlastní řešení problémů.</p>
                     </div>
                     <div class="text-center">
-                        <span class="icon text-secondary" style="font-size: 64px; margin-bottom: 1rem;">groups</span>
+                        <span class="icon text-secondary pillar-icon">groups</span>
                         <h4>Kolektiv</h4>
-                        <p class="text-muted" style="font-size: var(--size-text-sm);">Učíme děti spolupracovat, dělit
+                        <p class="text-muted text-sm">Učíme děti spolupracovat, dělit
                             se, respektovat ostatní a řešit konflikty zdravou cestou.</p>
                     </div>
                 </div>
             </section>
 
+            <!-- Sekce: Náš tým -->
             <section class="mb-4">
                 <div class="section-title">
                     <h2>Kdo se o vaše děti stará?</h2>
@@ -139,34 +144,31 @@
                 </div>
 
                 <div class="grid-3">
-                    <div class="card text-center" style="padding: 2rem 1rem;">
-                        <div
-                            style="width: 120px; height: 120px; border-radius: 50%; background-color: var(--color-bg-light); margin: 0 auto 1.5rem auto; display: flex; align-items: center; justify-content: center; border: 4px solid var(--color-primary-light);">
-                            <span class="icon" style="font-size: 64px; color: var(--color-text-muted);">person</span>
+                    <div class="card text-center team-card">
+                        <div class="team-avatar primary">
+                            <span class="icon team-avatar-icon">person</span>
                         </div>
                         <h3>Teta z Lištiček</h3>
                         <p class="text-muted text-sm">Vedoucí skupiny</p>
-                        <p style="font-size: var(--size-text-sm);">S dlouholetou praxí v předškolní pedagogice je
+                        <p class="text-sm">S dlouholetou praxí v předškolní pedagogice je
                             zárukou, že vaše děti jsou v těch nejlepších rukou.</p>
                     </div>
-                    <div class="card text-center" style="padding: 2rem 1rem;">
-                        <div
-                            style="width: 120px; height: 120px; border-radius: 50%; background-color: var(--color-bg-light); margin: 0 auto 1.5rem auto; display: flex; align-items: center; justify-content: center; border: 4px solid var(--color-secondary-light);">
-                            <span class="icon" style="font-size: 64px; color: var(--color-text-muted);">person</span>
+                    <div class="card text-center team-card">
+                        <div class="team-avatar secondary">
+                            <span class="icon team-avatar-icon">person</span>
                         </div>
                         <h3>Teta z Lištiček</h3>
                         <p class="text-muted text-sm">Chůva pro děti do zahájení školní docházky</p>
-                        <p style="font-size: var(--size-text-sm);">Její laskavý přístup pomáhá nejmenším dětem zvládnout
+                        <p class="text-sm">Její laskavý přístup pomáhá nejmenším dětem zvládnout
                             odloučení od rodičů bez slziček.</p>
                     </div>
-                    <div class="card text-center" style="padding: 2rem 1rem;">
-                        <div
-                            style="width: 120px; height: 120px; border-radius: 50%; background-color: var(--color-bg-light); margin: 0 auto 1.5rem auto; display: flex; align-items: center; justify-content: center; border: 4px solid var(--color-primary-light);">
-                            <span class="icon" style="font-size: 64px; color: var(--color-text-muted);">person</span>
+                    <div class="card text-center team-card">
+                        <div class="team-avatar primary">
+                            <span class="icon team-avatar-icon">person</span>
                         </div>
                         <h3>Teta z Lištiček</h3>
                         <p class="text-muted text-sm">Zdravotní pracovník</p>
-                        <p style="font-size: var(--size-text-sm);">Stará se o hygienu, první pomoc a dbá na to, aby byly
+                        <p class="text-sm">Stará se o hygienu, první pomoc a dbá na to, aby byly
                             dodržovány všechny zdravotní standardy.</p>
                     </div>
                 </div>
@@ -175,23 +177,24 @@
         </div>
     </main>
 
+    <!-- Patička -->
     <footer class="site-footer">
         <div class="container footer-inner">
             <div>
-                <a href="index.html" class="logo" style="color: var(--color-bg-white);">
+                <a href="index.html" class="logo footer-logo">
                     <img src="images/logo.png" alt="Lištičky logo">
                     d.s. Lištičky
                 </a>
-                <p style="margin-top: 1.5rem; opacity: 0.8; font-size: var(--size-text-sm);">Dětská skupina v Lučanech
+                <p class="footer-description">Dětská skupina v Lučanech
                     nad Nisou. Místo pro hru, smích a objevování.</p>
                 <a href="https://www.facebook.com/lisacilucany?locale=cs_CZ" target="_blank" rel="noopener noreferrer"
-                    style="display: inline-flex; align-items: center; gap: 0.5rem; margin-top: 1rem; color: var(--color-bg-white); opacity: 0.9;">
+                    class="footer-social-link">
                     <span class="icon">thumb_up</span> Naše Facebook stránka
                 </a>
             </div>
             <div>
-                <h3 style="color: var(--color-bg-white);">Navigace</h3>
-                <ul style="opacity: 0.8; line-height: 2;">
+                <h3 class="footer-heading">Navigace</h3>
+                <ul class="footer-list">
                     <li><a href="index.html">Domů</a></li>
                     <li><a href="o-nas.html">O nás</a></li>
                     <li><a href="galerie.html">Galerie</a></li>
@@ -199,27 +202,26 @@
                 </ul>
             </div>
             <div>
-                <h3 style="color: var(--color-bg-white);">Užitečné</h3>
-                <ul style="opacity: 0.8; line-height: 2;">
+                <h3 class="footer-heading">Užitečné</h3>
+                <ul class="footer-list">
                     <li><a href="jidelnicek.html">Týdenní jídelníček</a></li>
                     <li><a href="dokumenty.html">Dokumenty ke stažení</a></li>
                     <li><a href="kontakty.html">Kontakt a mapa</a></li>
                 </ul>
             </div>
             <div>
-                <h3 style="color: var(--color-bg-white);">Kontaktní údaje</h3>
-                <ul style="opacity: 0.8; line-height: 2;">
-                    <li><span class="icon" style="font-size: 18px; vertical-align: middle;">location_on</span> Lučany
+                <h3 class="footer-heading">Kontaktní údaje</h3>
+                <ul class="footer-list">
+                    <li><span class="icon footer-icon">location_on</span> Lučany
                         nad Nisou 640<br>Lučany nad Nisou</li>
-                    <li><span class="icon" style="font-size: 18px; vertical-align: middle;">phone</span> <a
-                            href="tel:+420720169023">+420 720 169 023</a></li>
-                    <li><span class="icon" style="font-size: 18px; vertical-align: middle;">mail</span> <a
+                    <li><span class="icon footer-icon">phone</span> <a href="tel:+420720169023">+420 720 169 023</a>
+                    </li>
+                    <li><span class="icon footer-icon">mail</span> <a
                             href="mailto:dslisticky@seznam.cz">dslisticky@seznam.cz</a></li>
                 </ul>
             </div>
         </div>
-        <div class="text-center"
-            style="margin-top: 4rem; padding-top: 2rem; border-top: 1px solid rgba(255,255,255,0.1); opacity: 0.5; font-size: 14px;">
+        <div class="text-center footer-bottom">
             <p>&copy; 2026 d.s. Lištičky v Lučanech nad Nisou. Všechna práva vyhrazena.</p>
         </div>
     </footer>
